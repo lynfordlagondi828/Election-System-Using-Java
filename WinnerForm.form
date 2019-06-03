@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Return"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Admin Panel"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="vp_lastname" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="vp_firstname" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="vp_position" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="vp_points" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="lastname" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="firstname" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="position" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="points" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="sec_lastname" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="sec_firstname" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="sec_position" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="sec_points" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="tres_lastname" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="tres_firstname" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="tres_position" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="tres_points" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="audi_lastname" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="audi_firstname" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="audi_position" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="audi_points" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="pro_lastname" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="pro_firstname" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="pro_position" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="pro_points" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="141" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="374" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="position" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="points" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="firstname" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lastname" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="vp_lastname" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="vp_firstname" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="vp_position" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="vp_points" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="sec_lastname" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sec_firstname" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sec_position" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sec_points" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tres_lastname" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tres_firstname" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tres_position" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tres_points" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="audi_lastname" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="audi_firstname" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="audi_position" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="audi_points" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="pro_lastname" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="pro_firstname" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="pro_position" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="pro_points" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="339" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Winner"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lastname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="lname"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="firstname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="fname"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="position">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="position"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="points">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="points"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="vp_lastname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="lname"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="vp_firstname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="fname"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="vp_position">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="position"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="vp_points">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="points"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sec_lastname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="lname"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sec_firstname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="fname"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sec_position">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="secpos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sec_points">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="points"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tres_lastname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="lname"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tres_firstname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="fname"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tres_position">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="secpos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tres_points">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="points"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="audi_lastname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="lname"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="audi_firstname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="fname"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="audi_position">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="secpos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="audi_points">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="points"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="pro_lastname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="lname"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="pro_firstname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="fname"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="pro_position">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="secpos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="pro_points">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="points"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
